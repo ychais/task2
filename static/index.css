@@ -1,0 +1,32 @@
+body {
+        background-color: rgb(122, 130, 136);
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .header-container {
+        margin: 0;
+        width: 100%;
+        display: grid;
+        box-sizing: border-box;
+    }
+    
+    .h1 {
+        letter-spacing: 8px;
+        text-align: center;
+        color: rgb(213, 221, 215);
+        font-family: 'Cormorant Garamond', serif;
+        font-stretch: ultra-expanded;
+    }
+    
+    .gallery-container {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: LightGray;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 150px)) 0%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
